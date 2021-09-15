@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<template>
+  <rect x="50" y="50" w="720" h="1" color="DarkGrey" />
+  <rect x="50" y="350" w="720" h="1" color="DarkGrey" />
+  <rect x="50" y="50" w="1" h="300" color="DarkGrey" />
+  <rect x="770" y="50" w="1" h="300" color="DarkGrey" />
+
+  <label x="70" y="70" size="10" color ="Black" font ="Arial">ФИО клиента: </label>
+  <label x="180" y="70" size="10" color ="Black" font ="Arial">name</label>
+  
+</template>

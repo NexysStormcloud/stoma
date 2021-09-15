@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <TimeSettings>
+    <DAY_BEGIN_HOUR>9</DAY_BEGIN_HOUR>
+    <DAY_END_HOUR>16,5</DAY_END_HOUR>
+    <MINUTES_PER_PATIENT>30</MINUTES_PER_PATIENT>
+  </TimeSettings>
+
+  <ToothSet>
+
+    <toothType id="ca">-</toothType>
+    <toothType id="c1">одноканальный</toothType>
+    <toothType id="c2">двухканальный</toothType>
+    <toothType id="c3">трёхканальный</toothType>
+    <toothType id="c4">четырёхканальный</toothType>
+
+
+  </ToothSet>
+  <ToothNum>
+    <tooth id="ul1">Верх.Лев.1</tooth>
+    <tooth id="ul2">Верх.Лев.2</tooth>
+    <tooth id="ul3">Верх.Лев.3</tooth>
+    <tooth id="ul4">Верх.Лев.4</tooth>
+    <tooth id="ul5">Верх.Лев.5</tooth>
+    <tooth id="ul6">Верх.Лев.6</tooth>
+    <tooth id="ul7">Верх.Лев.7</tooth>
+    <tooth id="ul8">Верх.Лев.8</tooth>
+    <tooth id="ur1">Верх.Прав.1</tooth>
+    <tooth id="ur2">Верх.Прав.2</tooth>
+    <tooth id="ur3">Верх.Прав.3</tooth>
+    <tooth id="ur4">Верх.Прав.4</tooth>
+    <tooth id="ur5">Верх.Прав.5</tooth>
+    <tooth id="ur6">Верх.Прав.6</tooth>
+    <tooth id="ur7">Верх.Прав.7</tooth>
+    <tooth id="ur8">Верх.Прав.8</tooth>
+    <tooth id="ll1">Нижн.Лев.1</tooth>
+    <tooth id="ll2">Нижн.Лев.2</tooth>
+    <tooth id="ll3">Нижн.Лев.3</tooth>
+    <tooth id="ll4">Нижн.Лев.4</tooth>
+    <tooth id="ll5">Нижн.Лев.5</tooth>
+    <tooth id="ll6">Нижн.Лев.6</tooth>
+    <tooth id="ll7">Нижн.Лев.7</tooth>
+    <tooth id="ll8">Нижн.Лев.8</tooth>
+    <tooth id="lr1">Нижн.Прав.1</tooth>
+    <tooth id="lr2">Нижн.Прав.2</tooth>
+    <tooth id="lr3">Нижн.Прав.3</tooth>
+    <tooth id="lr4">Нижн.Прав.4</tooth>
+    <tooth id="lr5">Нижн.Прав.5</tooth>
+    <tooth id="lr6">Нижн.Прав.6</tooth>
+    <tooth id="lr7">Нижн.Прав.7</tooth>
+    <tooth id="lr8">Нижн.Прав.8</tooth>
+    <tooth id="no">-</tooth>
+  </ToothNum>
+
+  <Templates>
+    <Template name="order">order.xlsx</Template>
+    <Template name="orderXML">order.xml</Template>
+    <Template name="ServiceBlank">
+      <Type name="Терапия">TerapieService.docx</Type>
+      <Type name="Ортопедия">OrthoService.docx</Type>      
+    </Template>
+  </Templates>
+  <ReplacementTags>
+    <FullName>#nameFull</FullName>
+    <Age>#age</Age>
+    <Birthday>#birth</Birthday>
+    <Phone>#phone</Phone>
+    <Addres>#addr</Addres>
+    <FirstName>#firstName</FirstName>
+    <LastName>#lastName</LastName>
+    <PatrioName>#patrioName</PatrioName> 
+    <ShortName>#nameShort</ShortName>
+    <PassNum>#passNum</PassNum>
+    <PassSerie>#passSerie</PassSerie> 
+    <PassUFMS>#ufms</PassUFMS>
+    <PassCode>#uCode</PassCode>
+    <PassIssued>#passIssued</PassIssued>
+    <OrderIssued>#orderIssued</OrderIssued>
+    <OrderPrice>#orderPrice</OrderPrice>
+    <OrderPriceStr>#orderLiteralPrice</OrderPriceStr>
+    <OrderID>#orderID</OrderID>
+    <ServicePrice>#servicePrice</ServicePrice>
+    <ServiceText>#serviceText</ServiceText>
+    <ServiceName>#serviceName</ServiceName>
+    <ServiceID>#serviceID</ServiceID>
+    <DoctorName>#doctorName</DoctorName>
+    <DoctorProfile>#doctorProfile</DoctorProfile>
+    <DateNow>#dateNowLong</DateNow>
+    <DateNowShort>#dateNowShort</DateNowShort>
+  </ReplacementTags>
+</settings>
